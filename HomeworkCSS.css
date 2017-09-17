@@ -1,0 +1,64 @@
+body{
+	font-family: Helvetica;
+}
+.menu a{
+	color:limegreen;
+}
+.item {
+	width:50%;
+	height:15%;
+	border:1px solid red;
+	margin:10px 1px 10px 1px;
+	border-radius:10px;
+	padding:1px 20px 15px 20px;
+}
+.urgent{
+	background-color:yellow;
+}
+.item .image{
+	position:relative;
+	top:25px;
+	right:10px;
+}
+.item .main_body .title .text_for{
+	font-size:80%;
+	font-weight:bold;
+	position:relative;
+	bottom:50px;
+	left:102px;
+	margin:8px 5px 8px 5px;
+}
+.item .main_body .title .price{
+	font-size:130%;
+	color:green;
+	position:relative;
+	bottom:50px;
+	left:102px;
+	border:none;
+	border-radius:3px;
+	background-color:pink;
+}
+.item .main_body .title a{
+	font-size:150%;
+	color:blue;
+	position:relative;
+	bottom:50px;
+	left:104px;
+}
+.item .description{
+	position:relative;
+	bottom:50px;
+	left:104px;
+	margin:8px 1px 8px 1px;
+	font-family:monospace; font-size:14pt;
+}
+.item .attributes{
+	position:relative;
+	bottom:50px;
+	left:104px;
+	margin:8px 1px 8px 1px;
+}
+.item .attributes .city{
+	font-weight:bold;
+	font-size:14px;
+}
