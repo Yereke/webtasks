@@ -1,0 +1,322 @@
+body{
+	background-color:#fff5ef !important;
+}
+@media screen and (min-width: 630px){
+header nav{
+	display: flex;
+}
+.NAVBAR{
+	z-index: 1;
+	background-color: #f8f8f8;
+	width: 70%;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+	margin-top: 0.5em;
+}
+.Nav{
+	padding: 10px;
+	display: flex;
+	justify-content:center;
+}
+.Nav h5{
+	margin:0px 1.5em 0px 1.5em;
+	color: black;
+}
+.Boots{
+	width:15%;
+}
+.Restoran img{
+	width: 50px;
+	height: 50px;
+}
+.Restoran{
+	position: absolute;
+	left: 2em;
+	width: 180px;
+	height: 130px;
+}
+.Footer1{
+	margin-top:6em;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+
+}
+.Zakaz{
+	color: #3f3f3f;
+	display: flex; 
+	justify-content: center;
+}
+.Footer1 .H {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.Footer1 .H div{
+	display: flex;
+	justify-content: center;
+}
+.Text{
+	width: 200px;
+	margin-right: 5px;
+	margin-bottom:5px;
+	border:none;
+	color: #fff5ef;
+	background-color: black;
+}
+.Input{
+	opacity: 0.6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+button{
+	background-color: black;
+	color: #fff5ef;
+	border-radius: 90px;
+	width: 35px;
+}
+.Header h1{
+	font-size: 20px;
+	color: #E6E6FA;
+}
+.Footer {
+	display: flex;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+.Section1 {
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	background-color: #f8f8f8;
+	border:1px solid grey;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.Internet{
+	display: flex;
+}
+.Internet img {
+	margin-top: 17px;
+	width: 20px;
+	height: 20px;
+}
+.Section1 a{
+	padding-left:10px; 
+}
+.Section1 p{
+	margin-top: 15px;
+}						
+.Restoran{
+	position: absolute;
+	left: 2em;
+	width: 180px;
+	height: 130px;
+}
+.Path{
+	display: flex;
+}
+.Path a{
+	color: #333232;
+	font-size: 15px;
+}
+.Path p{
+	color: #333232;
+	font-size: 15px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.PathDown {
+	display: flex;
+	width: 20%;
+	margin-left:0.6em; 
+}
+
+.Main{
+	display: flex;	
+}
+.Akcia .IMG{
+	display: flex;
+	margin-left: 6.4em;
+}
+.Akcia .Ak{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1em;
+}
+.Main img{
+	z-index: 1;
+	border-radius: 20px;
+	width: 340px;
+	height: 210px;
+}
+}
+@media screen and (max-width: 629px){
+.NAVBAR{
+	background-color: #f8f8f8;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+}
+.Nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Nav a{
+	background-color: #33312b;
+	width: 100%;
+	text-align: center;
+}
+
+.Boots{
+	display: none;
+	width:15%;
+}
+.Restoran{
+	display: none;
+}
+.Footer1{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+}
+.Zakaz{
+	color: #3f3f3f;
+	display: flex; 
+	justify-content: center;
+}
+.Footer1 .H {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.Footer1 .H div{
+	display: flex;
+	justify-content: center;
+}
+.Text{
+	width: 200px;
+	margin-right: 5px;
+	margin-bottom:5px;
+	border:none;
+	color: #fff5ef;
+	background-color: black;
+}
+.Input{
+	opacity: 0.6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+button{
+	background-color: black;
+	color: #fff5ef;
+	border-radius: 90px;
+	width: 35px;
+}
+.Header h1{
+	font-size: 20px;
+	color: #E6E6FA;
+}
+.Footer {
+	display: flex;
+	position: relative;
+	bottom: 0;
+}
+.Section1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 70%;
+	background-color:#fff5ef;
+	width: 100%;
+}
+.Internet{
+	display: flex;
+}
+.Internet img {
+	margin-top: 17px;
+	width: 20px;
+	height: 20px;
+}
+.Section1 a{
+	padding-left:10px; 
+}
+.Section1 p{
+	margin-top: 15px;
+}						
+.Restoran{
+	position: absolute;
+	left: 2em;
+	width: 180px;
+	height: 130px;
+}
+.Path{
+	display: flex;
+}
+.Path a{
+	color: #333232;
+	font-size: 15px;
+}
+.Path p{
+	color: #333232;
+	font-size: 15px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.PathDown {
+	display: flex;
+	width: 20%;
+	margin-left:0.6em; 
+}
+.Main{
+	display: flex;	
+}
+.Akcia .IMG{
+	display: flex;
+	flex-direction: column;
+}
+.Akcia .Ak{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1em;
+}
+.Main img{
+	z-index: 1;
+	border-radius: 20px;
+	width: 100%;
+}
+}
+@media screen and (width: 768px){
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.Restoran{
+	position: absolute;
+	left: -1em;
+	width: 180px;
+	height: 130px;
+}
+.PathDown a{
+	z-index: 1;
+}
+.Nav a .E{
+	width: 120px;
+}
+}
+@media screen and (width: 1024px){
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.PathDown a{
+	z-index: 1;
+}
+}

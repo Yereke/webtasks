@@ -1,0 +1,121 @@
+body{
+	background-color:#fff5ef !important;
+}
+header nav{
+	display: flex;
+}
+.NAVBAR{
+	z-index: 1;
+	background-color: #f8f8f8;
+	width: 70%;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+	margin-top: 0.5em;
+}
+.Nav{
+	padding: 10px;
+	display: flex;
+	justify-content:center;
+}
+.Nav h5{
+	margin:0px 1.5em 0px 1.5em;
+	color: black;
+}
+.Flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Boots{
+	width:15%;
+}
+.Restoran img{
+	width: 50px;
+	height: 50px;
+}
+.Restoran{
+	position: absolute;
+	left: 2em;
+	width: 180px;
+	height: 130px;
+}
+.Path{
+	display: flex;
+}
+.Path a{
+	color: #333232;
+	font-size: 15px;
+}
+.Path p{
+	color: #333232;
+	font-size: 15px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+input{
+	padding-left: 7px;
+}
+.Flex img{
+	margin-right: 2em;
+	width: 400px;
+	height: 400px;
+}
+textArea{
+	padding-left: 7px;
+}
+.PathDown {
+	display: flex;
+	width: 20%;
+	margin-left:0.6em; 
+}
+.Text{
+	margin-top: 1em;
+	width: 400px;
+	margin-right: 5px;
+	margin-bottom:5px;
+	border:none;
+	color: #fff5ef;
+	background-color: black;
+}
+.Footer {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.Section1 {
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	background-color: #f8f8f8;
+	border:1px solid grey;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.Internet{
+	display: flex;
+}
+.Internet img {
+	margin-top: 17px;
+	width: 20px;
+	height: 20px;
+}
+.Section1 a{
+	padding-left:10px; 
+}
+.Section1 p{
+	margin-top: 15px;
+}
+.Input{
+	margin-left: 2em;
+	opacity: 0.6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+button{
+	background-color: black;
+	color: #fff5ef;
+	border-radius: 90px;
+	width: 35px;
+}

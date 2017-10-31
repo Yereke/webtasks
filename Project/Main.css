@@ -1,0 +1,502 @@
+header nav div{
+	background-color: #f1f1f1;
+}
+@media screen and (min-width:630px){
+.Nav{
+	padding-top: 5px;
+	padding-left:60px;
+	margin-right: 50px;
+}
+.Nav1{
+	padding-top: 5px;
+	padding-right:60px;
+}
+.Nav .S{
+	border-right: 2px solid black;
+}
+.Nav h5{
+	padding:0px 5px 0px 5px;
+	color: black;
+}
+header nav div {
+	display: flex;
+	justify-content: space-between;
+}
+nav i {
+	padding-left:40px; 
+}
+
+.Cars{
+	padding: 20px;
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0,0), rgba(0, 0, 0, 0.1)), url("C:/Users/Erke/Desktop/Project/img/NavBg.jpg");
+	background-position:right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+}
+.Cars .Region{
+	padding-right:35px; 
+}
+.Cars .Top a{
+	margin-right:20px; 
+}
+.Boots{
+	width:6em;
+}
+.In{
+	background-color: #FFDEAD;
+	height:50px;
+	width:72em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.In a{
+	padding-right:20px; 
+}
+.Se{
+	display:inline-flex;
+}
+.KindOfCars{
+	padding-left:20px; 
+}
+section .Se{
+	padding-top: 20px;
+	width:50em;
+	display: flex;
+}
+section .Sec{
+	display: flex;
+}
+section .Sec p{
+	font-size: 20px;
+	color: black;
+}
+section .Sec a{
+	padding-top: 10px;
+	padding-left:30px;
+	font-size: 10px; 
+	color: black;
+}
+.Main {
+	display: flex;
+}
+.Imgs img{
+	width: 100px;
+	height: 100px;
+	margin-right:8px;
+	margin-left:8px;
+}
+.Imgs{
+	width: 100%;
+	padding-left:20px; 
+	display: flex;
+	flex-wrap: wrap;
+}
+.button{
+	display: flex;
+	justify-content: flex-end;
+}
+.Obiav{
+	display: flex;
+	justify-content: center;
+}
+.Js{
+	display: flex;
+	justify-content: center;
+}
+.Js p{
+	font-size: 11px;
+}
+hr{
+	background-color: #A9A9A9;
+	width: 85%;
+}
+.Mark{
+	display: flex;
+}
+.Mark select{
+	margin-left:30px;  
+} 
+.Znach{
+	display: flex;
+	justify-content: space-around;
+}
+.Znach img{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+}
+.Marks{
+	display: flex;
+	justify-content: space-between;
+}
+.Marks div{
+	margin-top: 20px;
+}
+.Marks div a{
+	display: block;
+}
+.Zapch .Zapchast{
+	font-size: 25px;
+}
+.Zapch p{
+	font-size: 12px;
+}
+.Zapch .img{
+	display: flex;
+}
+.Zapch .img img{
+	margin-right:30px; 
+	border:1px solid black;
+	width: 150px;
+	height: 100px;
+	margin-bottom: 2em;
+}
+.Section2 {
+	display: flex;
+}
+.ZapchA{
+	display: flex;
+}
+.ZapchA div{
+	margin-right:10em; 
+}
+.ZapchA div a{
+	font-size: 14px; 
+}
+.Sary{
+	margin-top: 2em;
+	margin-bottom:0.5em;
+	background-color: #FFDEAD;
+	height: 25px;
+	width: 60em;
+	margin-left: 5em;
+	border-top-right-radius:100px; 
+}
+.Section3 {
+	display: flex;
+	margin-bottom: 2em;
+}
+.Prodazha{
+	margin-top: 10px;
+}
+.Prodazh{
+	display: flex;
+}
+.Prodazh div{
+	margin-right: 8em;
+}
+.Prodazh div a{
+	font-size: 14px;
+}
+
+.Son{
+	display: flex;
+}
+.Section4{
+	margin-left: 6em;
+}
+.Section4 .Prodazha{
+	margin-top: 10px;
+}
+.Section4 .Prodazh{
+	display: flex;
+}
+.Section4 .Prodazh div{
+	margin-right: 8em;
+}
+.Section4 .Prodazh div a{
+	font-size: 14px;
+}
+.Footer{
+	display: flex;
+}
+.Foot{
+	display: flex;
+}
+.Foot img{
+	width: 20px;
+	height: 18px;
+}
+.Foot .Create{
+	margin-right:15em; 
+	display: flex;
+	flex-direction: column;
+}
+.Foot .About{
+	margin-top: 2px;
+	margin-right:15em; 
+	display: flex;
+	flex-direction: column;
+}
+.Foot .News{
+	display: flex;
+	flex-direction: column;
+}
+.Footer a{
+	margin-bottom:1em;
+	font-size: 11px;
+} 
+.Karta {
+	margin-bottom:0.5em;
+}
+.Footer p{
+	font-size: 10px;
+}
+.Symble a{
+	margin-right: 1em;
+}
+}
+
+
+
+
+@media screen and (max-width:629px){
+.Nav{
+	padding-left:60px;
+	margin-right: 50px;
+}
+.Nav1{
+	padding-right:60px;
+}
+.Nav .S{
+	border-right: 2px solid black;
+}
+.Nav h5{
+	padding:0px 5px 0px 5px;
+	color: black;
+}
+header nav div {
+	display: flex;
+	justify-content: space-between;
+}
+.Nav1 a {
+	padding-right: 40px;
+}
+.Lich{
+	display: none;
+}
+nav i {
+	padding-top:4px; 
+}
+.Cars{
+	width:594px;
+	padding: 20px;
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0,0), rgba(0, 0, 0, 0.1)), url("C:/Users/Erke/Desktop/Project/img/NavBg.jpg");
+	background-position:right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.Cars .Region{
+	padding-right:35px; 
+}
+.Cars .Top a{
+	margin-right:10px; 
+}
+.In{
+	background-color: #FFDEAD;
+	width:37.2em;
+	display: flex;
+	justify-content: space-around;
+}
+.In a{
+	padding-right:20px; 
+}
+.Se{
+	display:inline-flex;
+}
+.Proverka{
+	padding-left: 50px;
+}
+.KindOfCars{
+	padding-left:20px;
+}
+section .Se{
+	padding-top: 20px;
+	width:37.2em;
+	display: flex;
+}
+section .Sec{
+	display: flex;
+}
+section .Sec p{
+	font-size: 20px;
+	color: black;
+}
+section .Sec a{
+	padding-top: 10px;
+	padding-left:18px;
+	font-size: 10px; 
+	color: black;
+}
+.Main {
+	display: flex;
+	width: 35em;
+}
+.Imgs img{
+	width: 50px;
+	height: 50px;
+	margin-right:8px;
+	margin-left:8px;
+}
+.Imgs{
+	padding-left:20px; 
+	display: flex;
+	flex-wrap: wrap;
+}
+.button{
+	width: 35em;
+	display: flex;
+	justify-content: flex-end;
+}
+.Obiav{
+	width: 35em;
+	display: flex;
+	justify-content: center;
+}
+.Js{
+	width: 35em;
+	display: flex;
+	justify-content: center;
+}
+.Js p{
+	font-size: 11px;
+}
+.Znach{
+	display: flex;
+}
+.Znach img{
+	margin-top:20px; 
+	margin-left: 12px;
+	margin-right: 12px;
+	width: 50px;
+	height: 50px;
+}
+.Marks{
+	width: 35em;
+	display: flex;
+	justify-content: space-between;
+}
+.Marks div{
+	margin-top: 20px;
+}
+.Marks div a{
+	margin-left: 1em;
+	display: block;
+}
+.Zapch .Zapchast{
+	font-size: 25px;
+}
+.Zapch p{
+	font-size: 12px;
+}
+.Zapch .img{
+	display: flex;
+}
+.Zapch .img img{
+	margin-left: 10px;
+	margin-right:20px; 
+	border:1px solid black;
+	width: 115px;
+	height: 100px;
+	margin-bottom: 0.5em;
+}
+.Section2 {
+	display: flex;
+}
+.ZapchA{
+	display: flex;
+}
+.ZapchA div{
+	margin-left:1em;
+	margin-right:5em; 
+}
+.ZapchA div a{
+	font-size: 14px; 
+}
+.Sary{
+	margin-top: 2em;
+	background-color: #FFDEAD;
+	height: 25px;
+	margin-left:1em;
+	border-top-right-radius:100px; 
+}
+.Section3 {
+	display: flex;
+	margin-bottom: 1em;
+}
+.Prodazha{
+	margin-top: 10px;
+}
+.Prodazh{
+	display: flex;
+}
+.Prodazh div{
+	width: 149px;
+}
+.Prodazh div a{
+	font-size: 14px;
+}
+
+.Son{
+	display: flex;
+}
+.Section4 .Prodazha{
+	margin-top: 10px;
+}
+.Section4 .Prodazh{
+	display: flex;
+}
+.Section4 .Prodazh div{
+	margin-right: 4em;
+}
+.Section4 .Prodazh div a{
+	font-size: 14px;
+}
+
+.Footer{
+	width: 37em;
+	position: relative;
+	display: flex;
+}
+.Foot{
+	display: flex;
+}
+.Foot img{
+	width: 20px;
+	height: 18px;
+}
+.Foot .Create{
+	margin-right:2em; 
+	display: flex;
+	flex-direction: column;
+}
+.Foot .About{
+	margin-right:2em; 
+	display: flex;
+	flex-direction: column;
+}
+.Foot .News{
+	margin-bottom:20px;
+	display: flex;
+	flex-direction: column;
+}
+.Footer a{
+	margin-bottom:1em;
+	font-size: 11px;
+} 
+.Karta {
+	margin-bottom:0.5em;
+}
+.Footer p{
+	font-size: 10px;
+}
+.Symble a{
+	margin-right: 1em;
+}
+}
+

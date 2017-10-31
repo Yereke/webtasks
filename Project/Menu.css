@@ -1,0 +1,283 @@
+body{
+	background-color:#fff5ef !important;
+}
+@media screen and (min-width: 630px){
+header nav{
+	display: flex;
+}
+.NAVBAR{
+	background-color: #f8f8f8;
+	width: 70%;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+	margin-top: 1em;
+}
+.Nav{
+	padding: 10px;
+	display: flex;
+	justify-content:center;
+}
+.Nav h5{
+	margin:0px 1.5em 0px 1.5em;
+	color: black;
+}
+.Boots{
+	width:15%;
+}
+.Path{
+	display: flex;
+}
+.Path a{
+	color: #333232;
+	font-size: 15px;
+}
+.Path p{
+	color: #333232;
+	font-size: 15px;
+}
+.PathDown {
+	display: flex;
+	width: 20%;
+	justify-content: space-between; 
+	margin-left:4.5em; 
+}
+img {
+	height: 150px;
+	width: 250px;
+}
+.Kind  a{
+	color: #bcbcbc;
+	font-size: 15px;
+	font-weight:bold;
+	display: flex;
+	align-items:flex-start;
+}
+.Kind {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.Kind p{
+	width: 270px;
+	color: #565656;
+}
+.Kind div .a h6{
+	display: flex;
+	justify-content: center;
+}
+.Main {
+	display: flex;
+}
+.Menu h2{
+	color: #a00e0e;
+	display: flex;
+	justify-content: center;
+}
+.Restoran{
+	position: absolute;
+	left: 5em;
+	top:0px;
+	width: 170px;
+	height: 120px;
+}
+.Kind div .S{
+	border-right:1px solid #b2aeae;
+}
+.Kind div{
+	position: relative;
+}
+.Log img{
+	position: absolute;
+	width: 120px;
+	height: 70px;
+	right: 20px;
+	top: -30px;
+}
+.Cena h6{
+	position: absolute;
+	right: 55px;
+	top: -5px;
+}
+.Cena .Zakaz{
+	text-decoration: none;
+	position: absolute;
+	right: 50px;
+	top: -30px;
+}
+.Footer .FooterImg{
+	width: 100%;
+}
+.Footer div{
+	background-color: black;
+	position: relative;
+}
+.Footer h6{
+	position: absolute;
+	top: 30%;
+	left:5%;
+	color: white;
+	width: 30%;
+}
+.dontshow{
+	display: none !important;
+}
+.show{
+	display: flex;
+}
+.color {
+	background-color: black;	
+}
+.fa-times{
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.Burgers{
+	position: fixed;
+	top: 16%;
+	width: 82%;
+	align-items: center;
+	margin-left: 8em;
+	background-color: grey;
+	height: 500px;
+}
+.Burgers div{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.Burgers h6{
+	margin-left: 1em;
+}
+.Burgers p{
+	margin-left: 1em;
+	width: 70%;
+}
+}
+@media screen and (max-width: 629px){
+.NAVBAR{
+	background-color: #f8f8f8;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+}
+.Nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Nav a{
+	background-color: #33312b;
+	width: 100%;
+	text-align: center;
+}
+.Boots{
+	display: none;
+	width:15%;
+}
+.Path{
+	display: flex;
+	justify-content: center; 
+}
+.Path a{
+	color: #333232;
+	font-size: 15px;
+}
+.Path p{
+	color: #333232;
+	font-size: 15px;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+.PathDown {
+	display: flex;
+}
+img {
+	height: 150px;
+	width: 250px;
+}
+.Kind  a{
+	color: #bcbcbc;
+	font-size: 15px;
+	font-weight:bold;
+	display: flex;
+	align-items:flex-start;
+}
+.Kind {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.Kind p{
+	width: 270px;
+	color: #565656;
+}
+.Kind div .a h6{
+	display: flex;
+	justify-content: center;
+}
+.Main {
+	display: flex;
+}
+.Menu h2{
+	color: #a00e0e;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+.Restoran{
+	display: none;
+}
+.Kind div{
+	position: relative;
+}
+.Log img{
+	position: absolute;
+	width: 120px;
+	height: 70px;
+	right: 20px;
+	top: -30px;
+}
+.Cena h6{
+	position: absolute;
+	right: 60px;
+	top: -5px;
+}
+.Cena .Zakaz{
+	text-decoration: none;
+	position: absolute;
+	right: 45px;
+	top: -30px;
+}
+.Footer .FooterImg{
+	width: 100%;
+}
+.Footer div{
+	position: relative;
+}
+.Footer h6{
+	position: absolute;
+	top: 30%;
+	left:5%;
+	color: white;
+	width: 90%;
+	font-size: 10px;
+}
+}
+@media screen and (width: 768px){
+	.Restoran{
+	position: absolute;
+	left: -1em;
+	top:0px;
+	width: 170px;
+	height: 120px;
+}
+}
+@media screen and (width:1024px){
+	.Restoran{
+	position: absolute;
+	left:2em;
+	top:0px;
+	width: 170px;
+	height: 120px;
+}
+}
