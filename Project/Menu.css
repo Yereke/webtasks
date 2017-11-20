@@ -58,6 +58,7 @@ img {
 	justify-content: center;
 }
 .Kind p{
+	display: none;
 	width: 270px;
 	color: #565656;
 }
@@ -82,9 +83,16 @@ img {
 }
 .Kind div .S{
 	border-right:1px solid #b2aeae;
+	border-left:1px solid #b2aeae;
+}
+.Menu img:hover{
+	transform: scale(1.3);
+	border:none;
 }
 .Kind div{
 	position: relative;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 .Log img{
 	position: absolute;
@@ -129,29 +137,49 @@ img {
 }
 .fa-times{
 	position: absolute;
-	top:0;
-	right: 0;
+	width: 20px;
+	top:5px;
+	right: 15px;
 }
 .Burgers{
 	position: fixed;
-	top: 16%;
-	width: 82%;
+	top: 10%;
 	align-items: center;
-	margin-left: 8em;
-	background-color: grey;
-	height: 500px;
+	flex-direction: column;
+	background-image: url("C:/Users/Erke/Desktop/Web/Project/img/zakaz.jpg");
+	width: 0;
+	overflow: hidden;
+	transition: width 0.5s;
 }
 .Burgers div{
 	display: flex;
-	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 }
-.Burgers h6{
-	margin-left: 1em;
+.Burgers img{
+	margin-top: 2em;
+}
+.zakaz1{
+	position: absolute;
+	bottom: 2em;
+}
+.Burgers input{
+	border-radius: 5px;
+	background-color: #4d5056;
+	color: #07132b;
+}
+.Burgers h4{
+	color: #2b0907;
+	margin-left: 0.5em;
+}
+.fa:hover{
+	transform: rotate(180deg);
 }
 .Burgers p{
+	color: #2b0907;
 	margin-left: 1em;
 	width: 70%;
+	font-weight: bold;
 }
 }
 @media screen and (max-width: 629px){
@@ -208,6 +236,7 @@ img {
 	justify-content: center;
 }
 .Kind p{
+	display: none;
 	width: 270px;
 	color: #565656;
 }
@@ -261,6 +290,44 @@ img {
 	color: white;
 	width: 90%;
 	font-size: 10px;
+}
+.Burgers{
+	position: fixed;
+	top: 16%;
+	align-items: center;
+	background-image: url("C:/Users/Erke/Desktop/Web/Project/img/MenuClick.jpeg");
+	height: 500px;
+	width: 0;
+	overflow: hidden;
+	transition: width 0.5s;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.Burgers div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.Burgers h4{
+	color: #2b0907;
+	margin-left: 0.5em;
+}
+.fa:hover{
+	transform: rotate(180deg);
+}
+.Burgers p{
+	color: #2b0907;
+	margin-left: 1em;
+	width: 70%;
+	font-weight: bold;
+}
+.fa-times{
+	position: absolute;
+	width: 20px;
+	top:5px;
+	right: 15px;
 }
 }
 @media screen and (width: 768px){

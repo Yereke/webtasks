@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Medbook</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css"/>
+    <script>
+    	function dropFunction1() {
+    		document.getElementById("drops1").classList.toggle("show");
+    		document.getElementById('str1').innerHTML='v';
+    	}	
+    	function dropFunction2() {
+    		document.getElementById("drops2").classList.toggle("show");
+    		document.getElementById('str2').innerHTML='v';
+    	}
+    	function dropFunction3() {
+    		document.getElementById("drops3").classList.toggle("show");
+    		document.getElementById('str3').innerHTML='v';
+    	}
+    	function dropFunction4() {
+    		document.getElementById("drops4").classList.toggle("show");
+    		document.getElementById('str4').innerHTML='v';
+    	}
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container w-100 h-100">
+    <section class="d-flex flex-column align-items-center w-100">
+        <h3 class="H3 text-center section-header">Как пользоваться сервисом <span class="yellow-text">medbook.kz</span>?</h3>
+        <h5 class="H5 text-center test">Узнайте о том, как <span class="yellow-text">найти врача</span> который подходит <br> вам по требованиям и стоимости</h5>
+        <div class="steps d-flex flex-row align-items-center justify-content-between flex-wrap">
+            <div class="Imgs d-flex flex-column align-items-center mb-4">
+                <div class="circle mb-3"><img src="1.png"></div>
+                <h5 class="text-center">Ищите доктора, услугу <br>или анализ в поиске</h5>
+                <span class="large-numbers">1</span>
+            </div>
+            <div class="Imgs d-flex flex-column align-items-center mb-4">
+                <div class="circle mb-3"><img src="1.png"></div>
+                <h5 class="text-center">Выберите подходящего <br>врача из списка</h5>
+                <span class="large-numbers">2</span>
+            </div>
+            <div class="Imgs d-flex flex-column align-items-center mb-4">
+                <div class="circle mb-3"><img src="1.png"></div>
+                <h5 class="text-center">Ожидайте подтверждение <br> диспетчера</h5>
+                <span class="large-numbers">3</span>
+            </div>
+        </div>
+   </section>
+
+
+    <section class="d-flex flex-column  align-items-center w-100">
+		<h3 class="text-center section-header mb-20	mt-20 "><span class="yellow-text">Ответы</span> на частные вопросы</h3>
+		<div class="questions d-flex flex-row  justify-content-around flex-wrap">
+			<div class="image-wra mr-10"><img src="question_mark.png" alt="" ></div>
+			<div class="ques d-flex flex-column  flex-wrap ml-10">
+				<div class="fques">
+					<h5 onclick="dropFunction1()" class="spin font-weight-bold"><span id="str1" class="yellow-text font-weight-bold text-left"> ^ </span>Medbook - это клиника ?</h5>
+					<h6 id="drops1" class="drop-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, asperiores.</h6>
+				</div>
+				<div class="sques">
+					<h5 onclick="dropFunction2()" class="spin font-weight-bold"><span id="str2" class="yellow-text font-weight-bold text-left"> ^ </span>Medbook - это клиника ?</h5>
+					<h6 id="drops2" class="drop-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, asperiores.</h6>
+				</div>
+				<div class="tques">
+					<h5 onclick="dropFunction3()" class="spin font-weight-bold"><span id="str3" class="yellow-text font-weight-bold text-left"> ^ </span>Medbook - это клиника ?</h5>
+					<h6 id="drops3" class="drop-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, asperiores.</h6>
+				</div>
+				<div class="4ques">
+					<h5 onclick="dropFunction4()" class="spin font-weight-bold"><span id="str4" class="yellow-text font-weight-bold text-left"> ^ </span>Medbook - это клиника ?</h5>
+					<h6 id="drops4" class="drop-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, asperiores.</h6>
+				</div>
+			</div>
+		</div>
+    </section>
+</div>
+<footer>
+    
+</footer>
+
+</body>
+</html>

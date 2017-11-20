@@ -1,0 +1,64 @@
+body {
+	background: #f8f8f8;
+	width: 100%;
+	height: 100%;
+}
+.container {
+	padding-top: 50px;
+	color: #acacac;	
+}
+
+.H3{
+	 padding-right:10px ;
+ }
+.H5{
+	padding-right:10px ;
+}
+section {
+	height:100%;
+	border-bottom: 1px dashed grey;
+}
+
+.section-header {
+	color: grey;
+	font-weight: 500;
+}
+.Imgs h5{
+	width:330px;
+}
+.steps {
+	padding-left:20px;
+	padding-bottom: 50px;
+}
+.steps h5 {
+	padding-right:20px;
+	padding-top:20px; 
+}
+.test {
+	font-weight: 300;
+}
+
+.yellow-text {
+	color: rgb(250, 195, 30);
+}
+
+.circle img{
+	width:80%;
+	height:80%;
+}
+
+.steps div {
+	padding-top: 40px;
+	position: relative;
+}
+
+.large-numbers {
+	position: absolute;
+	bottom: -50px;
+	right: 0;
+	font-size: 150px;
+	color: rgba(150,150,150,0.3);
+	font-weight: bold;
+	padding-right:40px;
+	padding-top:40px;
+}

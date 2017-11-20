@@ -1,6 +1,7 @@
 body{
 	background-color:#fff5ef !important;
 }
+@media screen and (min-width: 630px){
 header nav{
 	display: flex;
 }
@@ -118,4 +119,102 @@ button{
 	color: #fff5ef;
 	border-radius: 90px;
 	width: 35px;
+}
+}
+
+
+@media screen and (max-width: 629px){
+.NAVBAR{
+	background-color: #f8f8f8;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+}
+.Nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Nav a{
+	background-color: #33312b;
+	width: 100%;
+	text-align: center;
+}
+
+.Boots{
+	display: none;
+	width:15%;
+}
+.Restoran{
+	display: none;
+}
+.Path{
+	display: flex;
+}
+.Path a{
+	color: #333232;
+	font-size: 15px;
+}
+.Path p{
+	color: #333232;
+	font-size: 15px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+input{
+	padding-left: 7px;
+}
+.Flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2em;
+}
+.Flex img{
+	width: 170px;
+	height: 170px;
+}
+textArea{
+	padding-left: 7px;
+}
+.PathDown {
+	display: flex;
+	width: 20%;
+	margin-left:0.6em; 
+}
+.Text{
+	margin-top: 1em;
+	width: 250px;
+	margin-right: 5px;
+	margin-bottom:5px;
+	border:none;
+	color: #fff5ef;
+	background-color: black;
+}
+.Footer {
+	display: flex;
+	justify-content: center;
+}
+.Internet{
+	display: flex;
+}
+.Internet img {
+	width: 20px;
+	height: 20px;
+}
+.Section1 a{
+	padding-left:10px; 
+}
+.Input{
+	opacity: 0.6;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+button{
+	background-color: black;
+	color: #fff5ef;
+	border-radius: 90px;
+	width: 35px;
+}
 }

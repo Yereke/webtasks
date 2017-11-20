@@ -58,6 +58,7 @@ header nav{
 	justify-content: center;
 }
 .Text{
+	padding-left: 5px;
 	width: 200px;
 	margin-right: 5px;
 	margin-bottom:5px;

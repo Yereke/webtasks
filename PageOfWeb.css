@@ -1,0 +1,48 @@
+body {
+   background-color:lightgrey !important;
+}
+.medbook{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.find {
+    display: flex;
+    justify-content: center;
+    font-variant: small-caps;
+    margin-top: 15px;
+    font-style:  inherit;
+}
+.medbook b a {
+     text-decoration: none;
+     color:goldenrod;
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+ }
+.find p a {
+    text-decoration: none;
+    color:goldenrod;
+}
+.i{
+    height:100px;
+    width: 180px;
+    padding-left: 80px;
+}
+.Images {
+    margin-top: 80px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap:wrap ;
+}
+.Images .Img {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.Images .Img a {
+    padding-top: 80px;
+    text-decoration: none;
+    color: black;
+}
